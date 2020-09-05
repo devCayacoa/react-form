@@ -7,13 +7,15 @@ const AvatarInput = (props) => {
       <label htmlFor={props.id} className={""}>
         <div
           className={
-            "p-4 mb-8 w-full bg-gray-200 text-gray-500 text-center rounded focus:outline-none focus:bg-white focus:shadow-outline opacity-90 transition duration-100 ease-in-out hover:opacity-100 hover:bg-gray-300 hover:placeholder-gray-800"
+            "p-4 mb-8 w-full bg-gray-300 text-gray-600 text-center rounded focus:outline-none focus:bg-white focus:shadow-outline transition duration-100 ease-in-out hover:bg-gray-400 hover:text-gray-800"
           }
         >
           <p className={""}>
             <FontAwesomeIcon
               icon={faArrowCircleUp}
-              className={"my-2 mx-auto text-4xl block align-middle"}
+              className={
+                "my-2 mx-auto text-4xl block align-middle animate-bounce"
+              }
             />
             {props.placeholder}
           </p>

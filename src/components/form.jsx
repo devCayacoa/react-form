@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Input from "./input";
 import AvatarInput from "./AvatarInput";
+import SubmitButton from "./SubmitButton";
 
 class Form extends Component {
   render() {
@@ -28,7 +29,7 @@ class Form extends Component {
             placeholder={"Eats"}
             type={"text"}
           />
-          <Input id={"age"} name={"age"} placeholder={"Age"} type={"text"} />
+          <Input id={"age"} name={"age"} placeholder={"Age"} type={"number"} />
           <Input
             id={"twitter"}
             name={"twitter"}
@@ -42,6 +43,7 @@ class Form extends Component {
             type={"file"}
             accept={"image/*"}
           />
+          <SubmitButton />
         </form>
       </div>
     );
