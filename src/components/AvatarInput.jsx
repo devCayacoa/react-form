@@ -9,7 +9,7 @@ const AvatarInput = (props) => {
       <label htmlFor={props.id} className={""}>
         <div
           className={
-            "p-4 mb-8 w-full bg-gray-400 text-gray-700 text-center rounded focus:outline-none focus:bg-white focus:shadow-outline transition duration-100 ease-in-out hover:bg-gray-500 hover:text-gray-800"
+            "p-4 mb-8 w-full bg-gray-400 text-gray-700 text-center rounded focus:outline-none focus:bg-white focus:shadow-outline transition duration-100 ease-in-out hover:bg-gray-00 hover:text-gray-800"
           }
         >
           <p>
