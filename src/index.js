@@ -7,8 +7,7 @@ import Form from "./components/form";
 
 ReactDOM.render(
   <React.StrictMode>
-    {/*<App />*/}
-    <Form />
+    <App />
   </React.StrictMode>,
   document.getElementById("root")
 );
