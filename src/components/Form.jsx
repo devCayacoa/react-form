@@ -1,5 +1,5 @@
 import React from "react";
-import Input from "./input";
+import Input from "./Input";
 import AvatarInput from "./AvatarInput";
 import SubmitButton from "./SubmitButton";
 

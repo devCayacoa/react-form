@@ -1,6 +1,6 @@
 import React from "react";
 import { UserCard } from "./components/UserCard";
-import Form from "./components/form";
+import Form from "./components/Form";
 
 class App extends React.Component {
   state = {
